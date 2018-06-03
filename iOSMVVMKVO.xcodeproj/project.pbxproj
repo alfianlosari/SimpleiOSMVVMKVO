@@ -12,6 +12,8 @@
 		8B7A899820C40B61005B757C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7A899620C40B61005B757C /* Main.storyboard */; };
 		8B7A899A20C40B62005B757C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7A899920C40B62005B757C /* Assets.xcassets */; };
 		8B7A899D20C40B62005B757C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7A899B20C40B62005B757C /* LaunchScreen.storyboard */; };
+		8B7A89A520C40FB7005B757C /* EmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A89A420C40FB7005B757C /* EmailViewModel.swift */; };
+		8B7A89A720C41242005B757C /* EmailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A89A620C41242005B757C /* EmailModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8B7A899920C40B62005B757C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B7A899C20C40B62005B757C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B7A899E20C40B62005B757C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7A89A420C40FB7005B757C /* EmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewModel.swift; sourceTree = "<group>"; };
+		8B7A89A620C41242005B757C /* EmailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8B7A899920C40B62005B757C /* Assets.xcassets */,
 				8B7A899B20C40B62005B757C /* LaunchScreen.storyboard */,
 				8B7A899E20C40B62005B757C /* Info.plist */,
+				8B7A89A420C40FB7005B757C /* EmailViewModel.swift */,
+				8B7A89A620C41242005B757C /* EmailModel.swift */,
 			);
 			path = iOSMVVMKVO;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7A89A720C41242005B757C /* EmailModel.swift in Sources */,
 				8B7A899520C40B61005B757C /* ViewController.swift in Sources */,
+				8B7A89A520C40FB7005B757C /* EmailViewModel.swift in Sources */,
 				8B7A899320C40B61005B757C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
